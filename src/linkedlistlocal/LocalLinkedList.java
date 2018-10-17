@@ -49,13 +49,32 @@ public class LocalLinkedList {
 			System.out.println("Created List Given Element as Tail");
 		}
 	}
+	 public void addElementOnIndex(int index, int value){
+
+	     if(index == 0){
+	         addElementFirst(value);
+	     }
+	     else{
+	     Node addValue = new Node(value);
+	  Node current = head;
+	     for (int i = 0; i < index; i++){
+	         if(i != index-1){
+	             current = current.next;
+	         }
+	     }
+	         addValue.next = current.next;
+	         current.next= addValue;
+	     
+	     }
+	 }
 	public void printEle() {
-		Node current = head;
-		while(current.next != null) {
-			current = current.next;
-		System.out.println(current.value);}
-		System.out.println(current.value);
-	}
+		  Node current = head;
+		  while(current.next != null) {
+		        System.out.println(current.value);
+		   current = current.next;
+		    }
+		  System.out.println(current.value);
+		 }
 	
 
 }
