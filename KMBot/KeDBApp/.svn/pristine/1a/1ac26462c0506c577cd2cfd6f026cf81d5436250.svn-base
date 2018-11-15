@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: KeDBApp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: naveeng
+Implementation-Vendor-Id: com.app.kedb
+Build-Jdk: 1.8.0_144
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/KeDBApp
+Created-By: Maven Integration for Eclipse
+

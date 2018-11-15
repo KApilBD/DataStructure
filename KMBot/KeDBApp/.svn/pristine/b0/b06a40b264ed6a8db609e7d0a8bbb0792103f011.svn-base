@@ -1,0 +1,12 @@
+spring.datasource.url=jdbc:mysql://localhost:3308/ke_db
+##spring.datasource.url=jdbc:mysql://10.76.16.77:3308/ke_db_mp
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.tomcat.max-wait=20000
+spring.datasource.tomcat.max-idle=20
+spring.datasource.tomcat.min-idle=15
+spring.datasource.tomcat.max-active=50
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+spring.jpa.properties.hibernate.format_sql=true
+server.servlet.context-path= /kedbloginapi
